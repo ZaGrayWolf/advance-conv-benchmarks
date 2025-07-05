@@ -1,0 +1,10 @@
+include README.md
+include LICENSE
+include CONTRIBUTING.md
+include requirements.txt
+include ACADEMIC_CITATIONS.md
+recursive-include advance_conv_benchmarks *.py
+recursive-include tests *.py
+recursive-include examples *.py
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]

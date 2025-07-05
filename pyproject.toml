@@ -1,0 +1,63 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "advance-conv-benchmarks"
+version = "0.1.0"
+authors = [
+    {name = "Abhudaya Singh", email = "abhuday2656@gmail.com"},
+]
+description = "Research reproducibility suite for exact convolution paper reproductions"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Education",
+]
+keywords = ["pytorch", "convolution", "research", "reproducibility", "papers", "academic", "deep learning", "computer vision"]
+dependencies = [
+    "torch>=1.9.0",
+    "torchvision>=0.10.0", 
+    "numpy>=1.21.0",
+    "ptflops>=0.6.6",
+    "tabulate>=0.8.9",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "black>=21.0",
+    "flake8>=3.9",
+    "isort>=5.9",
+]
+
+[project.urls]
+Homepage = "https://github.com/abhudaysingh/advance-conv-benchmarks"
+Repository = "https://github.com/abhudaysingh/advance-conv-benchmarks"
+Documentation = "https://github.com/abhudaysingh/advance-conv-benchmarks"
+"Bug Reports" = "https://github.com/abhudaysingh/advance-conv-benchmarks/issues"
+
+[tool.setuptools.packages.find]
+include = ["advance_conv_benchmarks*"]
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+
+[tool.isort]
+profile = "black"
+line_length = 88
