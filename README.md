@@ -2,13 +2,12 @@
 
 > **The definitive library for exact reproduction of convolution research papers**
 
-[![PyPI version](https://badge.fury.io/py/advance-conv-benchmarks.svg)](https://badge.fury.io/py/advance-conv-benchmarks)
-[![Research](https://img.shields.io/badge/research-reproducibility-blue.svg)](https://github.com/abhudaysingh/advance-conv-benchmarks)
-[![Papers](https://img.shields.io/badge/papers-5%20reproduced-green.svg)](https://github.com/yourusername/conv-benchmarks)
+[![PyPI version](https://badge.fury.io/py/advance-conv-benchmarks.svg)](https://pypi.org/project/advance-conv-benchmarks/0.1.0/)
+[![Research](https://img.shields.io/badge/research-reproducibility-blue.svg)](https://github.com/ZaGrayWolf/advance-conv-benchmarks)
 
 ## 🔬 **For Researchers, By Researchers**
 
-This library provides **bit-perfect reproductions** of influential convolution papers with the exact analysis depth and mathematical rigor found in academic research. Eliminate baseline implementation errors and focus on your novel contributions.
+This library provides **bit-perfect reproductions** of influential convolution papers with the exact analysis depth and mathematical rigour found in academic research. Eliminate baseline implementation errors and focus on your novel contributions.
 
 ### **🎓 Reproduced Papers & Methods**
 
@@ -171,7 +170,7 @@ If you use this library in your research, please cite:
   title={Advance Conv Benchmarks: A Research Reproducibility Suite for Convolution Analysis},
   author={Singh, Abhudaya},
   year={2025},
-  url={https://github.com/abhudaysingh/advance-conv-benchmarks},
+  url={https://github.com/ZaGrayWolf/advance-conv-benchmarks},
   note={Version 0.1.0}
 }
 ```
