@@ -9,7 +9,7 @@
 
 This library provides **bit-perfect reproductions** of influential convolution papers with the exact analysis depth and mathematical rigour found in academic research. Eliminate baseline implementation errors and focus on your novel contributions.
 
-### **🎓 Reproduced Papers & Methods**
+### ** Reproduced Papers & Methods**
 
 | Paper | Year | Implementation | Status |
 |-------|------|---------------|---------|
